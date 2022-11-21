@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body
+{
+    background: linear-gradient(180deg, #F3FBFB 0%, rgba(243, 251, 251, 0.91) 100%);
+}
+ /*Logo y menu  */
+header
+{
+    background: black;
+    height: 84px;
+    width: 1440px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 1.18%;
+}
+
+.imgContenedor
+{
+    position: absolute;
+    left: 5.42%;
+    right: 87.64%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.imgEncabezado
+{
+    width: 5rem;
+}
+
+.menunav 
+{
+    background: black;
+    margin: auto;
+    cursor: pointer;
+}
+
+.menunav ul li 
+{
+    height: 84px;
+    width: 140px;
+    left: 190px;
+    bottom: 1.18%;
+    position: absolute;
+    background: #2D2427;
+    border-width: 0px 5px;
+    border-style: solid;
+    border-color: #000000;
+    list-style: none;
+    
+
+    cursor: pointer;
+}
+.menunav li a
+{
+    position: absolute;
+    left: 10.64%;
+    right: 10.11%;
+    top: 25%;
+    bottom: 23.81%;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E5DCC8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menunav2 ul li
+{
+    height: 84px;
+    width: 140px;
+    left: 170px;
+    position: absolute;
+    list-style: none;
+
+    margin-left: 10rem;
+    bottom:1.18%;
+
+    background: #2D2427;
+    border-width: 0px 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+.menunav2 li a
+{
+    position: absolute;
+    left: 14.89%;
+    right: 12.77%;
+    top: 21.43%;
+    bottom: 22.62%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #E5DCC8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menunav3 ul li
+{
+    height: 84px;
+    width: 120px;
+    left: 470px;
+    list-style: none;
+    border-radius: 0px;
+
+    position: absolute;
+   
+    right: 53.12%;
+  
+    bottom:1.18%;
+
+    background: #2D2427;
+    border-width: 0px 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+.menunav3 li a
+{
+    position: absolute;
+    left: 14.89%;
+    right: 12.77%;
+    top: 21.43%;
+    bottom: 22.62%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;  
+    text-align: center;
+    text-decoration: none;
+    color: #E5DCC8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*buscador */
+.cajabuscar {
+    float: none;
+    width: 100%;
+    
+    max-width: 453px;
+    margin-bottom: 25px;
+    margin-top: 23px;
+    margin-left: 830px;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+
+    border-radius: 10px;
+   
+   
+    
+
+}
+
+#buscarform {
+    padding: 0;
+    float: left;
+    clear: both;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+#buscarform fieldset { float: left }
+
+#buscarform
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+   
+}
+
+#buscarform .search {
+    font-size: 27px;   
+    position: absolute;
+    right: 0px;
+    margin-top: 0px;
+   
+    top: 0;
+    padding: 9px;
+    height: 28px;
+    width: 60px;
+    cursor: pointer;
+    text-align: center;
+
+    border: 0;
+    border-radius: 10px;
+}
+#buscarform fieldset { 
+    width: 100% 
+    
+}
+
+#s {
+    width: 100%;
+    background-color: #2D2427;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #FFF;
+  
+    box-sizing: border-box;
+    height: 42px;
+
+    border-radius: 10px;
+    border: 1px solid #E8D316;
+
+    
+}
+
+.button{
+    right: 0;
+    top: 0;
+    padding: 9px 0;
+    float: right;
+    z-index: 10;
+    border: 0;
+   
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+  
+    transition: all 0.25s linear;
+    background: transparent;
+   
+    position: absolute;
+  
+    vertical-align: top;
+
+    border-radius: 10px;
+    
+   
+}
+
+/* Mis pedidos*/
+
+
+.menunavp
+{
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    font-style: none;
+    color: #2D2427;
+   
+}
+.menunavp ul li a
+{
+
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 25px;
+
+    margin-left: 115px;
+    font-style: none;
+    color: #2D2427;
+
+   
+}
+
+
+
+
+
+
+.container
+{
+    position: absolute;
+    left: 75%;
+    top: 28%;
+    transform: translate(-40%, 0%);
+    padding: 10px;
+    
+}
+.container2
+{
+    position: absolute;
+    left: 81%;
+    top: 28%;
+    padding: 0px;
+
+}
+.usuario
+{
+    position: absolute;
+    left: 58.03%;
+    right: 29.57%;
+    top: 0;
+    bottom: 21.43%;
+    width: 78px;
+    height: 49px;
+    
+    background: #2D2427;
+    line-height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #D0BD14;
+ /* Alinear los iconos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   margin-left: 10rem;
+
+}
+
+/* Imagen del administrador */
+
+.Administrador figure
+{
+    padding: 40px;
+    margin: 90px;
+   /* border: 1px solid black; */
+    width: 90%;
+    cursor: pointer;
+    height: 40%;
+    border-radius: 100%;
+    margin-top: 140px;
+    margin-left: 50px;
+    
+}
+.Administrador figure .imgAdmin
+{
+    margin-left: 11px;
+    margin-right: auto;
+
+
+    width: 90%;
+    height: 90%;
+}
+.Administrador .capa h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    
+    margin-top: 290px;
+}
+.Administrador figure img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 200ms ease-out;
+}
+.Administrador figure .capa
+{
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    width: 20.8%;
+    margin-left: -40px;
+    height: 41%;
+   /* background: rgba(0,0, 0, 0.6); */
+    margin-top: 170px;
+   /* transition: all 200ms ease-out;
+    opacity: 0;
+    visibility: hidden; */
+    text-align: center;
+}
+.Administrador figure:hover > .capa
+{
+    opacity: 1;
+    visibility: visible;
+
+}
+.capa #preview
+{
+    border-radius: 100%;
+}
+
+
+.Contenedor
+{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    
+
+}
+
+
+/* Icono de configuracion*/
+
+.icono
+{
+    margin-left: 450px;
+    cursor: pointer;
+}
+/*foto de admin */
+
+
+
+
+
+
+/* Seccion de la informacion de contacto */
+
+.Datos 
+{
+    width: 530px;
+    padding: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Datos p
+{
+    color: slategray;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.Datos h1
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Datos h4
+{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.nombreTrab h1
+{
+    
+    margin-top: 100px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+/*Icono */
+.icono
+{
+    width: 0;
+    height: 0;
+}
+/* Texto de ultimas ventas*/
+
+.pedidos h3
+{
+    margin-top: -40px;
+}
+h3
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 100px;
+    
+}
+
+
+
+/* Imagen Producto contenedor */
+
+.Contenedor2
+{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+
+.ventas .imgVenta
+{
+    padding: 10px;
+    width: 80%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+   
+}
+.imgVenta:hover
+{
+    box-shadow: 0px 1px 10px rgba(0, 0,0, 2);
+    transform: translateY(-3%);
+  
+    transition: all 400ms ease-out;
+}
+/*Texto Ultimas ventas */
+.ventas h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+@media (min-width:340px) and (max-width: 500px)
+{
+    
+}
+
+
+
+
